@@ -17,3 +17,15 @@
     background-color: rgb(249, 224, 250);
     color: #403c3c;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+.Button{
+    font-size: 15px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .Button{
+        font-size: 11px;
+    }
+}
