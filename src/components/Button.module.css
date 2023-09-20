@@ -1,0 +1,19 @@
+.Button{
+    width: calc(25% - 10px);
+    margin: 5px;
+    border: 1px solid #fcfcfc;
+    background-color: #fcfcfc;
+    padding: 10px; 
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Button:hover{
+    background-color: rgb(249, 224, 250);
+    color: #403c3c;
+}
