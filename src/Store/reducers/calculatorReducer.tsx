@@ -91,7 +91,8 @@ const calculatorSlice= createSlice({
         },
         removeLastSymbol: (state)=>{
             if(state.history[2] == null){
-                state.value = state.value.substring(0, state.value.length - 1) 
+                
+                state.value = (state.value.length!==1)?state.value.substring(0, state.value.length - 1):'0' 
             }
         }
 
